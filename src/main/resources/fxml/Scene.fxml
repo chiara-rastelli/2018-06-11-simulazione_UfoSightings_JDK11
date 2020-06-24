@@ -40,8 +40,8 @@
                   <Button mnemonicParsing="false" onAction="#handleAvvistamenti" text="Avvistamenti" GridPane.columnIndex="2" />
                   <Label text="Stato" GridPane.rowIndex="1" />
                   <ComboBox fx:id="boxStato" prefWidth="150.0" promptText="Stato" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                  <Button mnemonicParsing="false" onAction="#handleAnalizza" text="Analizza" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                  <Button alignment="TOP_LEFT" mnemonicParsing="false" onAction="#handleSequenza" text="Sequenza di avvistamenti" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <Button fx:id="btnAnalizza" mnemonicParsing="false" onAction="#handleAnalizza" text="Analizza" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Button fx:id="btnSequenzaAvvistamenti" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#handleSequenza" text="Sequenza di avvistamenti" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="1" />
                </children>
             </GridPane>
             <TextArea fx:id="txtResult" />
